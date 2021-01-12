@@ -1,4 +1,3 @@
-let sentence = prompt("Please input a sentence");
 
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
@@ -22,7 +21,29 @@ function firstLastReverse (sentence) {
 function midChar(sentence) {
   return sentence.charAt(sentence.length/2);
 }
+
+function outTextWhole(inputText) {
+  $("#output").text(inputText);
+}
+
+function outTextEdited(inputText){
+  $("#output").text(midChar(inputText) + firstLastReverse(inputText));
+}
+
+function start() {
+  let sentence = prompt("Please input a sentence");
+  $("#imgOne").click(function() {outTextWhole(sentence);
+  $("#imgOne").addClass("hidden");
+  $("#imgTwo").removeClass("hidden");
+  }) 
+  $("#imgTwo").click(function() {outTextEdited(sentence);
+  $("#imgTwo").addClass("hidden");
+  $("#imgOne").removeClass("hidden");
+  });
+}
+
 // alert(capitalizeFirstLetter(sentence)); 
 
-alert(midChar(sentence)+ firstLastReverse(sentence));
+// alert(midChar(sentence)+ firstLastReverse(sentence));
 
+$(start);
