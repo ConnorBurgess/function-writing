@@ -1,4 +1,4 @@
-# _My-first-webpage-2_
+# _Function-writing_
 
 #### By Connor Burgess <connorburgesscodes@gmail.com>
 #### Co-Authored By Jonah Johansen <johansenjonah+git@gmail.com>
@@ -16,9 +16,11 @@ _Webpage demonstrating use of Javascript functions and JQuery methods._
 
 ## Setup/Installation Requirements
 
-* _Clone repository from [here](https://github.com/ConnorBurgess/my-first-webpage-2.git)_
-* _Open my-first-webpage.html_
-
+* _Open terminal_
+* _Type $ cd desktop_
+* _Type $ git clone https://github.com/ConnorBurgess/function-writing.git_
+* _Type $ cd portfolio-landing_
+* _Open index.html_
 
 ## Known Bugs
 
