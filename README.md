@@ -19,7 +19,7 @@ _Webpage demonstrating use of Javascript functions and JQuery methods._
 * _Open terminal_
 * _Type $ cd desktop_
 * _Type $ git clone https://github.com/ConnorBurgess/function-writing.git_
-* _Type $ cd portfolio-landing_
+* _Type $ cd Function-writing_
 * _Open index.html_
 
 ## Known Bugs
